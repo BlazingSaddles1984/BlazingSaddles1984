@@ -4,37 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        h1{
-            color: aqua;
-        }
-        p{
-            color:aqua
-        }
-        body{
-            background-color: black;
-        }
-        img{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+   #picture-of-me-left{
+float: left;
+padding: 10px;
+width:400px
+   }
+   #picture-of-me-right{
+float:right;
+padding: 10px; 
+width: 400px;
+   }
+   body{
+    background-image: url(images/PXL_20210418_204055229.PORTRAIT~2.jpg);
+    height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+   }
+   h1{
+    text-shadow: 2px 2px 4px black;
+  color: white;
+   }
+   p{
+   text-shadow: 2px 2px 4px black;
+    color: white;
    }
     </style>
 </head>
 
 <body>
-    <img src="Untitled.jpg" class="Center">
-    <table>
+    <img src="Banner/myBanner.png" class="Center" alt="banner" height="300px">
+    <table align="center">
         <thead>
             <tr>
-                <a href="index.html"><img src="home.png"></a>
-               <a href=""><img src="javascript.png"></a> 
-              <a href="Aboutme.html"><img src="Aboutme.png"></a>
+                <td><a href="index.html"><img src="Buttons/Home(new).png" alt="home button"></a></td>
+               <td><a href=""><img src="Buttons/Javascripts(new).png" alt="javascripts button"></a> </td>
+              <td><a href="Aboutme.html"><img src="Buttons/Aboutme(new).png" alt="about me button"></a></td>
             </tr>
         </thead>
     </table>
+    <img id="picture-of-me-left" src="images/Tucker.png" alt="picture of me">
+    <img id="picture-of-me-right" src="images/_K4A1827.jpg" alt="picture of me">
     <h1 style="text-align: center;">About Me</h1>
-    <p style="text-align: center;">My name is Tucker Ross and I am a Student at URI and I took this class to help me code.</p>
+    <p style="text-align: center;">My name is Tucker Ross and I am a Junior at transfer student at URI.
+         <br> I major in fine arts but, I took CSC106 as a general education credit. 
+         <br>This class has taught me how to progam in many different languages.
+        <br> In my free time I tend to be out using my camera to capture 
+        <br>life around me or sit down and make stills </p>
     <p style="text-align: center;">Thanks for visiting.</p>
 </body>
 </html>
