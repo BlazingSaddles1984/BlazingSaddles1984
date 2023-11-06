@@ -1,0 +1,23 @@
+h1{
+    color: aqua;
+}
+h2{
+    color: aqua;
+}
+p{
+    color:aqua
+}
+img{
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+body{
+background-color: black;
+}
+a:link{
+color: aqua;
+}
+td{
+padding: 20px;
+}
